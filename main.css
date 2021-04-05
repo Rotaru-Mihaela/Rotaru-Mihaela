@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+	background: url('cum-sa-iti-faci-un-blog.jpg') no-repeat center center fixed;
+	background-size: cover;
+justify-content: center;
+  align-items: center;
+	 height: 100vh;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 25px;
+
+}
+p::first-letter {
+	font-family: Serif, "Times New Roman", Arial, Geneva;
+	font-size: 25px;
+}
+h3 {	
+color: burlywood;
+	text-align: center;
+}
+.head, .about {
+	margin-bottom: 10%;
+} 
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+.content {
+  padding: 2% 2%;
+}
+
+p {
+	text-align: center;
+	color: lightslategray;
+	margin-bottom: 2%;
+}
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+li {
+	display: inline;
+	
+}
+a {
+	color: blue;
+}
+.profile-image {
+	margin-top: 20px;
+}
+img {
+	width: 300px;
+	height: 320px;
+	border-radius: 20%;
+	padding: 1px;
+	background-color: #999;
+	transition: all 0.5s ease-in-out;
+	filter: grayscale(50%);
+}
+img:hover {
+	filter: grayscale(20%);
+	transform: scale(1.1);
+}
+.about {
+	background-color: rgba(0,0,0,.7);
+		text-align: center;
+	color: white;
+	top: -76px;
+	border-radius: 10%;
+}
+
